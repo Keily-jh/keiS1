@@ -22,5 +22,10 @@ class Test_Programa(unittest.TestCase):
        self.assertFalse(es_mayor(5,10))
 #Desarrollar pruebas para la división de números
  
+    def test_suma_parametrizada(self):
+       test_cases =[(1,2,3), (-1,-2,-3), (0,0,0), (1,-1,0)]
+       for x, y, resultado in test_cases:
+          with self.subTest(x=x, y=y, resultado=resultado):
+             self.assertEqual(suma(x,y), resultado)
 if __name__ == '__main__':
  unittest.main()

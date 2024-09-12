@@ -35,7 +35,7 @@ class Parcial(Empleado):
             self.horas_trabajadas = horas_trabajadas
         if tarifa_hora is not None:
             self.tarifa_hora = tarifa_hora
-        return self.horas_trabajadas*self,tarifa_hora
+            return self.horas_trabajadas*self,tarifa_hora
 def __str__(self):
     return ('Parcial (nombre: {}, horas_trabajadas: {}. tarifa_hora: {})'. format(self.nombre, self.horas_trabajadas, self.tarifa_hora))
 
