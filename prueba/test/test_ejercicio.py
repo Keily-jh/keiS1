@@ -1,5 +1,5 @@
 import unittest
-from prueba.clases_ejercicio01 import Empleado, Gerente
+from prueba.clases_ejercicio import Empleado, Gerente
 
 class TestEmpleado(unittest.TestCase):
     def test_propiedades_empleado(self):
