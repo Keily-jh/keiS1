@@ -26,5 +26,6 @@ class Soplin_Atleta(Soplin_Persona):
 
 #prueba
 atl1 = Soplin_Atleta('Joel', 10, 10)
+atl2 = Soplin_Atleta('jhamy', 20, 80)
 atl1.soplin_entrenar(20)
 print("Atleta: "+ atl1.soplin_nombre + ", distancia recorrida:  " + str(atl1.soplin_distancia_recorrida) + " calorías consumidas: " + str(atl1.soplin_calorías_consumidas))
